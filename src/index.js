@@ -4,6 +4,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from "react-redux";
 import { PersistGate } from 'redux-persist/integration/react';
+import "./assets/fonts/iconfont.css";
 import storeAction from "./store";
 const store = storeAction().store;
 const persistor = storeAction().persistor;

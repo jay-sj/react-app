@@ -1,0 +1,47 @@
+.main {
+    margin-top: 44px;
+    margin-bottom: 50px;
+}
+
+.floor {
+    background: #fff;
+    &-head{
+        height:50px;
+        display: flex;
+        padding:0 10px;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    &-main {
+        width: 100%;
+        .am-flexbox-item {
+            width: 50%;
+            flex: 0 0 auto;
+            margin: 0;
+            .card-body{
+                text-align:center;
+                img{
+                    height:100px;
+                    max-width:100%;
+                }
+            }
+            .am-card-footer{
+                align-items: center;
+                .addCart{
+                    float:right;
+                    width:30px;
+                    height:30px;
+                    border-radius:15px;
+                    background: rgb(230, 135, 135);
+                    font-size:20px;
+                    text-align: center;
+                    line-height:30px;
+                    font-weight:bold;
+                    color:#fff;
+                }
+            }
+            
+        }
+    }
+}
